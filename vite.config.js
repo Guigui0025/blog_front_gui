@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        personne: resolve(__dirname, 'personne/index.html'),
+        article: resolve(__dirname, 'article/index.html'),
       },
     },
   },
